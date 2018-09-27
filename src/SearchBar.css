@@ -1,0 +1,27 @@
+.search-bar-container {
+    position: absolute;
+    border: 1px solid;
+    height: 70px;
+    width: 80%;
+    top: 0;
+}
+
+.search-bar-container input {
+    position: absolute;
+    right: 60px;
+    top: 18px;
+    height: 22px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.search-bar-container input:hover,
+.search-bar-container input:focus {
+    border: 1px solid pink;
+    background: lavenderblush;
+    font-weight: 700;
+}
+
+.search-bar-container .search-bar-title {
+    text-align: center;
+}
